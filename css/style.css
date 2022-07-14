@@ -53,7 +53,6 @@ Banner section
     font-weight: 600;
 }
 
-
 /*------------------------------------------------------------------
 Blog section  
 --------------------------------------------------------------------*/
@@ -64,4 +63,15 @@ Blog section
 }
 .tag a:hover{
     color: #F48840;
+}
+
+
+.recent-post-heading a{
+    color: black;
+    display: inline-block;
+    padding-bottom: 4px;
+    transition: 0.3s;
+}
+.recent-post-heading a:hover{
+    color:#FF7A33;
 }
