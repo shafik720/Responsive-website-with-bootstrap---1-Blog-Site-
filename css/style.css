@@ -85,3 +85,18 @@ Blog section
 .catagories-list a:hover{
     color: #FF7A33;
 }
+.tag-clouds a{
+    padding: 12px 20px;
+    color: #b9b9b6;
+    margin-right: 10px;
+    margin-top: 10px;
+    background: white;
+    display: inline-block;
+    border: 1px solid #b9b9b6 ;
+    transition: all 0.2s ease-in-out;
+    font-weight: 600;
+}
+.tag-clouds a:hover{
+    background: #FF7A33;
+    color: white;
+}
