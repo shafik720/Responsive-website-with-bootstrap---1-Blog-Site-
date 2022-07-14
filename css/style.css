@@ -70,8 +70,18 @@ Blog section
     color: black;
     display: inline-block;
     padding-bottom: 4px;
-    transition: 0.3s;
+    transition: all 0.1s ease-in-out;
 }
 .recent-post-heading a:hover{
     color:#FF7A33;
+}
+.catagories-list a{
+    color: black;
+    margin-top: 10px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.catagories-list a:hover{
+    color: #FF7A33;
 }
