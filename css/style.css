@@ -57,7 +57,7 @@ Banner section
 Blog section  
 --------------------------------------------------------------------*/
 .tag a{
-    color: beige;
+    color: grey;
     font-weight: 600;
     transition: all 0.5s;
 }
@@ -103,7 +103,7 @@ Blog section
 .pages a{
     padding: 12px 20px;
     display: inline-block;
-    border: 1px solid beige;
+    border: 1px solid grey;
     color: grey;
     margin: 0 10px;
     transition: all 0.2s ;
