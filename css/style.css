@@ -52,3 +52,16 @@ Banner section
     color: white;
     font-weight: 600;
 }
+
+
+/*------------------------------------------------------------------
+Blog section  
+--------------------------------------------------------------------*/
+.tag a{
+    color: beige;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.tag a:hover{
+    color: #F48840;
+}
