@@ -96,7 +96,15 @@ Blog section
     transition: all 0.2s ease-in-out;
     font-weight: 600;
 }
-.tag-clouds a:hover{
-    background: #FF7A33;
+.tag-clouds a:hover, .pages a:hover, #active-page{
+    background:#F48840;
     color: white;
+}
+.pages a{
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid beige;
+    color: grey;
+    margin: 0 10px;
+    transition: all 0.2s ;
 }
