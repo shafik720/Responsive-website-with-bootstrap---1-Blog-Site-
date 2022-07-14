@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+/*------------------------------------------------------------------
+Navbar  
+--------------------------------------------------------------------*/
+.navbar-brand span{
+    color: #F48840;
+    font-weight: 800;
+}
+#activated{
+    color: #F48840;
+}
+.nav-item{
+    margin-left: 25px;
+}
+.nav-item a:hover{
+    color:#F48840 !important ;
+}
