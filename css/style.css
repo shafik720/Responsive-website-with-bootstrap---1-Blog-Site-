@@ -21,3 +21,16 @@ Navbar
 .nav-item a:hover{
     color:#F48840 !important ;
 }
+
+
+/*------------------------------------------------------------------
+Slider  
+--------------------------------------------------------------------*/
+.orange-text{
+    color: #FF6534;
+}
+.slider-text{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
