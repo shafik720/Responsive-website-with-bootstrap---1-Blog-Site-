@@ -118,36 +118,27 @@ Blog section
 }
 
 
-
+#navbar-fixed-bottom{
+    display: none;
+}
 
 @media only screen and (max-width:768px){
-    .containers{
+    #navbar-fixed-bottom{
         display: block;
-        width: 100%;
     }
     .navbars{
-        /* width: 80%; */
-        display: flex;
-        justify-content:space-center;
-        align-items: center;
-       
         background: white;
         z-index: 5000;
-        /* border-top: 2px solid grey; */
-        /* border-bottom: 2px solid grey; */
-        /* box-shadow: 10px 10px 10px 2px rgba(0,0,0,0.5); */
         box-shadow: 0px -2px 4px rgba(0,0,0,0.3);
         padding-top: 7px;
         padding-bottom: 5px;
-    
-        width: 100%;
         position: fixed;
         bottom: 0;
         left: 0;
+        right: 0;
     }
     .navbar-elements{
         text-align: center;
-        padding: 0 20px;
         position: relative;
         color: #818189;
         font-weight: 700;
@@ -166,12 +157,9 @@ Blog section
     #mid-icon{
         color: #198754;    
         position: absolute;
-        /* bottom: -20%;
-        left: -20%; */
-        left: 5px;
-        top: -40px;
+        top: -80%;
         z-index: 500;
-        border: 2px solid white;
+        border: 3px solid white;
         width: 53px;
         height: 53px;
         display: flex;
@@ -179,7 +167,7 @@ Blog section
         align-items: center;
         border-radius: 50%;
         background: #4368A5;
-        box-shadow: 0px -3px 4px rgba(0,0,0,0.3);
+        box-shadow: 0 0 4px rgba(0,0,0,0.3);
     }
     #mid-icon i{
         font-size: 1.4em;     
@@ -187,9 +175,8 @@ Blog section
     }
 
     #call{
-        
         position: relative;
-        /* padding-top: 20px; */
+        margin-top: 10px;
     }
 
     #facebook{
@@ -199,7 +186,6 @@ Blog section
         background: #818189;
         color: white;
         border-radius: 5px;
-        padding: 5px;
     }
     #twitter{
         color: #818189;
