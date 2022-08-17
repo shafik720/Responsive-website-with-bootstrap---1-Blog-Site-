@@ -24,7 +24,10 @@ Navbar
     color:#F48840 !important ;
 }
 
-
+/* //fixed navbar  */
+.containers{
+    display: none;
+}
 /*------------------------------------------------------------------
 Slider  
 --------------------------------------------------------------------*/
@@ -112,4 +115,45 @@ Blog section
 
 .footer{
     background: #20232E;
+}
+
+@media only screen and (max-width:480px){
+    .containers{
+        display: block;
+    }
+    .navbars{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 2px solid grey;
+        border-bottom: 2px solid grey;
+        padding: 10px 0px;
+        box-shadow: 10px 10px 10px 2px rgba(0,0,0,0.5);
+    
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    .navbar-elements{
+        text-align: center;
+        padding: 0 20px;
+        position: relative;
+    }
+    .navbar-elements i{
+        font-size: 20px;
+    }
+    
+    
+    #mid-icon{
+        color: #198754;    
+        position: absolute;
+        bottom: -20%;
+        left: 10%;
+    }
+    #mid-icon i{
+        font-size: 2.5em;
+        background: white;
+        
+    }
 }
