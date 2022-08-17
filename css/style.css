@@ -128,7 +128,7 @@ Blog section
     .navbars{
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
        
         background: white;
