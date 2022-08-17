@@ -190,4 +190,7 @@ Blog section
     #twitter{
         color: #818189;
     }
+    .span-text{
+        font-weight: 500;
+    }
 }
